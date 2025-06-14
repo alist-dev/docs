@@ -11,7 +11,7 @@ if (typeof location !== "undefined") {
   }
 }
 
-export const defaultApi = "cf";
+export const defaultApi = "new";
 export const api = (path?: string) => {
   let _api = "";
   if (typeof localStorage === "undefined") {
