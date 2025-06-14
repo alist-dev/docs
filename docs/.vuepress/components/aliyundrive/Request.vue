@@ -123,9 +123,9 @@ async function haveScan() {
         placeholder="client_secret"
       />
     </template>
-    <NButton size="large" type="primary" @click="goGet" block
+    <!-- <NButton size="large" type="primary" @click="goGet" block
       >前往登录</NButton
-    >
+    > -->
     <NButton
       size="large"
       type="info"
